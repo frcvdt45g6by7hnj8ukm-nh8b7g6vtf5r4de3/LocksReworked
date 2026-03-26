@@ -8,6 +8,8 @@ import com.kaleblangley.locks_reworked.LocksReworked;
 
 @Mod(LocksReworked.MOD_ID)
 public final class LocksReworkedForge {
+
+    @SuppressWarnings("removal")
     public LocksReworkedForge() {
         // Submit our event bus to let Architectury API register our content on the right time.
         EventBuses.registerModEventBus(LocksReworked.MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
