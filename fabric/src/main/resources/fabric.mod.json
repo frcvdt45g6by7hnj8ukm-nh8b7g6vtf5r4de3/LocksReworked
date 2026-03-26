@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.kaleblangley.fabric.ExampleModFabric"
+      "com.kaleblangley.locks_reworked.fabric.LocksReworkedFabric"
     ],
     "client": [
-      "com.kaleblangley.fabric.client.ExampleModFabricClient"
+      "com.kaleblangley.locks_reworked.fabric.client.LocksReworkedFabricClient"
     ]
   },
   "mixins": [

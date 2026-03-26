@@ -1,10 +1,10 @@
-package com.kaleblangley.fabric;
+package com.kaleblangley.locks_reworked.fabric;
 
 import net.fabricmc.api.ModInitializer;
 
-import com.kaleblangley.ExampleMod;
+import com.kaleblangley.locks_reworked.LocksReworked;
 
-public final class ExampleModFabric implements ModInitializer {
+public final class LocksReworkedFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -12,6 +12,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+        LocksReworked.init();
     }
 }
